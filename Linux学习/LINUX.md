@@ -8,7 +8,7 @@
 
 练习：统计阿里云盾进程的性能，每1s统计一次，统计他的cpu、mem的利用率，用tab隔开，并在最后空出一行打印下两个指标的平均值。
 
-```top -b -n 10 -d 1 | grep -i "AliYunDun$" | awk '{print $9,$10};{a+=$9;b+=$10}END{print "";print a/NR,b/NR}```
+```top -b -n 10 -d 1 | grep -i "AliYunDun$" | awk '{print $9,$10};{a+=$9;b+=$10}END{print "";print a/NR,b/NR}'```
 
 ##### 1.2 ps命令
 + **ps -ef** <br/>显示所有命令，连带命令行
