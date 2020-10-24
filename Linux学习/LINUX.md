@@ -33,7 +33,7 @@ netstat：打印Linux网络系统的状态信息
 
 ### 3.常用的数据统计命令
 
-##### 数据检索：　less more cat head tail
+##### 3.1 数据检索：　less more cat head tail
 + less <br/>less 工具也是对文件或其它输出进行分页显示的工具，应该说是linux正统查看文件内容的工具，功能极其强大。less 的用法比起 more 更加的有弹性。 在 more 的时候，我们并没有办法向前面翻， 只能往后面看，但若使用了 less 时，就可以使用 [pageup] [pagedown] 等按 键的功能来往前往后翻看文件，更容易用来查看一个文件的内容！除此之外，在 less 里头可以拥有更多的搜索功能，不止可以向下搜，也可以向上搜。
     + ps -ef | less -N <br/>ps查看进程信息并通过less分页显示同时显示行号
     
@@ -64,7 +64,7 @@ netstat：打印Linux网络系统的状态信息
     + tail -f -s 5 test2.txt <br>如每隔５秒查看一次test2.txt的内容是否更新
 
   
-##### 数据操作：　wc sort uniq
+##### 3.2 数据操作：　wc sort uniq
 
 + wc命令:默认的情况下，wc将计算指定文件的行数、字数，以及字节数
     + wc filename <br> 3 92 598 testfile       # testfile文件的行数为3、单词数92、字节数598 
@@ -86,4 +86,31 @@ netstat：打印Linux网络系统的状态信息
     + sort testfile1 | -u或--unique 仅显示出一次的行列
     + -w<字符位置>或--check-chars=<字符位置> 指定要比较的字符
 
+### 4. linux三剑客
 
+##### 4.1 grep 
++  grep pattern file 
++  grep -n pattern file 显示行号
++ grep -i pattern file 忽略大小写
++ grep -v pattern file 反过来（invert），只打印没有匹配的，而匹配的反而不打印。
++ grep -o pattern file 只显示被模式匹配到的字符串。
++ grep -c pattern file  显示总共有多少行被匹配到了，而不是显示被匹配到的内容，注意如果同时使用-cv选项是显示有多少行没有被匹配到
++ grep -E pattern file  开启扩展（Extend）的正则表达式。
++ grep pattern -r dir/ 递归搜索
++ grep -A -B -C pattern file 打印命中数据的上下文
+
+#####4.2 awk
+学习博客：https://www.cnblogs.com/ginvip/p/6352157.html
+https://blog.csdn.net/qq_36119192/article/details/82982732
+
++ awk 'BEGIN{}END{}' 开始和结束
++ awk '/bbb/' 正则匹配
++ awk '/aa/,/bb/' 区间选择
++ awk '$2~/aaa/' 字段匹配
++ awk '$2=="aaa"' 字段等于
++ awk 'NR==2' 取第二行
++ awk 'NR>1' 去掉第一行
+
++ FS 字段分隔符
++ OFS 输出数据的字段分隔符
++ RS 记录分隔符
