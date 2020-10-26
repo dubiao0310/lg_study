@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2dabbe98-c33a-448f-a0ee-8d80895c228c" name="Default Changelist" comment="&quot;linux&quot;">
+      <change afterPath="$PROJECT_DIR$/python_study/class_study/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_study/class_study/first_task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_study/class_study/tl_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_study/class_study/xuzhu_class.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jAuH20gXMExE7gFZiDaUavZHmR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../test" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.xuzhu_class">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lg_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_study/game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_study/game/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tl_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lg_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_study/class_study" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_study/class_study/tl_class.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xuzhu_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lg_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_study/class_study" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_study/class_study/xuzhu_class.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.xuzhu_class" />
+        <item itemvalue="Python.tl_class" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2dabbe98-c33a-448f-a0ee-8d80895c228c" name="Default Changelist" comment="" />
+      <created>1603259125479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603259125479</updated>
+      <workItem from="1603259135277" duration="21409000" />
+      <workItem from="1603503506281" duration="1863000" />
+      <workItem from="1603525738054" duration="1528000" />
+      <workItem from="1603680610687" duration="3814000" />
+    </task>
+    <task id="LOCAL-00001" summary="&quot;test&quot;">
+      <created>1603264091936</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603264091936</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;python第一次实战&quot;">
+      <created>1603268138910</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603268138910</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;linux&quot;">
+      <created>1603274556829</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603274556829</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;linux&quot;">
+      <created>1603274644184</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603274644184</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&quot;linux&quot;">
+      <created>1603274726286</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603274726286</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&quot;linux&quot;">
+      <created>1603288224953</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603288224953</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&quot;linux&quot;">
+      <created>1603525820106</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603525820106</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;test&quot;" />
+    <MESSAGE value="&quot;python第一次实战&quot;" />
+    <MESSAGE value="&quot;linux&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;linux&quot;" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2602" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603270443085">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2602" y="341" key="#com.intellij.fileTypes.FileTypeChooser/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603270443085" />
+    <state x="2456" y="87" width="912" height="902" key="CommitChangelistDialog2" timestamp="1603526333705">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2456" y="87" width="912" height="902" key="CommitChangelistDialog2/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603526333705" />
+    <state x="2700" y="297" key="FileChooserDialogImpl" timestamp="1603503906221">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2700" y="297" key="FileChooserDialogImpl/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603503906221" />
+    <state width="1809" height="296" key="GridCell.Tab.0.bottom" timestamp="1603716628806">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="296" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603716628806" />
+    <state width="1809" height="296" key="GridCell.Tab.0.center" timestamp="1603716628806">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="296" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603716628806" />
+    <state width="1809" height="296" key="GridCell.Tab.0.left" timestamp="1603716628806">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="296" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603716628806" />
+    <state width="1809" height="296" key="GridCell.Tab.0.right" timestamp="1603716628806">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="296" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603716628806" />
+    <state x="2407" y="191" key="SettingsEditor" timestamp="1603525584442">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2407" y="191" key="SettingsEditor/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603525584442" />
+    <state x="2512" y="275" key="Vcs.Push.Dialog.v2" timestamp="1603274559953">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2512" y="275" key="Vcs.Push.Dialog.v2/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603274559953" />
+    <state x="2420" y="152" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603370582737">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2420" y="152" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603370582737" />
+    <state x="2688" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603264016420">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2688" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603264016420" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1603505448870">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603505448870" />
+    <state x="2531" y="401" width="672" height="678" key="search.everywhere.popup" timestamp="1603270980286">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2531" y="401" width="672" height="678" key="search.everywhere.popup/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603270980286" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lg_study$test.coverage" NAME="test Coverage Results" MODIFIED="1603337119665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_study/game" />
+    <SUITE FILE_PATH="coverage/lg_study$xuzhu_class.coverage" NAME="xuzhu_class Coverage Results" MODIFIED="1603716628796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_study/class_study" />
+    <SUITE FILE_PATH="coverage/lg_study$second_task.coverage" NAME="second_task Coverage Results" MODIFIED="1603716302698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_study/class_study" />
+  </component>
+</project>
