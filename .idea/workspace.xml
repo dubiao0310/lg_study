@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dabbe98-c33a-448f-a0ee-8d80895c228c" name="Default Changelist" comment="&quot;linux&quot;">
-      <change afterPath="$PROJECT_DIR$/python_study/class_study/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_study/class_study/first_task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_study/class_study/tl_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_study/class_study/xuzhu_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_pytest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_pytest/core/calc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_pytest/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_pytest/tests/test_calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_study/class_study/xuzhu_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_study/class_study/xuzhu_class.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +53,37 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../test" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.xuzhu_class">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.calc">
+    <configuration name="calc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lg_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_pytest/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_pytest/core/calc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lg_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,6 +152,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.calc" />
         <item itemvalue="Python.xuzhu_class" />
         <item itemvalue="Python.tl_class" />
         <item itemvalue="Python.test" />
@@ -142,7 +172,8 @@
       <workItem from="1603259135277" duration="21409000" />
       <workItem from="1603503506281" duration="1863000" />
       <workItem from="1603525738054" duration="1528000" />
-      <workItem from="1603680610687" duration="3814000" />
+      <workItem from="1603680610687" duration="4954000" />
+      <workItem from="1603803337367" duration="431000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;test&quot;">
       <created>1603264091936</created>
@@ -218,38 +249,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;linux&quot;" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2377" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603803421547">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2377" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603803421547" />
     <state x="2602" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603270443085">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2602" y="341" key="#com.intellij.fileTypes.FileTypeChooser/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603270443085" />
-    <state x="2456" y="87" width="912" height="902" key="CommitChangelistDialog2" timestamp="1603526333705">
+    <state x="2456" y="87" width="912" height="902" key="CommitChangelistDialog2" timestamp="1603762931342">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2456" y="87" width="912" height="902" key="CommitChangelistDialog2/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603526333705" />
+    <state x="2456" y="87" width="912" height="902" key="CommitChangelistDialog2/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603762931342" />
     <state x="2700" y="297" key="FileChooserDialogImpl" timestamp="1603503906221">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2700" y="297" key="FileChooserDialogImpl/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603503906221" />
-    <state width="1809" height="296" key="GridCell.Tab.0.bottom" timestamp="1603716628806">
+    <state width="1809" height="296" key="GridCell.Tab.0.bottom" timestamp="1603785475384">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="296" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603716628806" />
-    <state width="1809" height="296" key="GridCell.Tab.0.center" timestamp="1603716628806">
+    <state width="1809" height="296" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603785475384" />
+    <state width="1809" height="296" key="GridCell.Tab.0.center" timestamp="1603785475384">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="296" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603716628806" />
-    <state width="1809" height="296" key="GridCell.Tab.0.left" timestamp="1603716628806">
+    <state width="1809" height="296" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603785475384" />
+    <state width="1809" height="296" key="GridCell.Tab.0.left" timestamp="1603785475384">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="296" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603716628806" />
-    <state width="1809" height="296" key="GridCell.Tab.0.right" timestamp="1603716628806">
+    <state width="1809" height="296" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603785475384" />
+    <state width="1809" height="296" key="GridCell.Tab.0.right" timestamp="1603785475384">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="296" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603716628806" />
-    <state x="2407" y="191" key="SettingsEditor" timestamp="1603525584442">
+    <state width="1809" height="296" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603785475384" />
+    <state x="2407" y="191" key="SettingsEditor" timestamp="1603803409194">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2407" y="191" key="SettingsEditor/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603525584442" />
+    <state x="2407" y="191" key="SettingsEditor/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603803409194" />
     <state x="2512" y="275" key="Vcs.Push.Dialog.v2" timestamp="1603274559953">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -274,6 +309,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lg_study$test.coverage" NAME="test Coverage Results" MODIFIED="1603337119665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_study/game" />
     <SUITE FILE_PATH="coverage/lg_study$xuzhu_class.coverage" NAME="xuzhu_class Coverage Results" MODIFIED="1603716628796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_study/class_study" />
+    <SUITE FILE_PATH="coverage/lg_study$calc.coverage" NAME="calc Coverage Results" MODIFIED="1603803981465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_pytest/core" />
     <SUITE FILE_PATH="coverage/lg_study$second_task.coverage" NAME="second_task Coverage Results" MODIFIED="1603716302698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_study/class_study" />
   </component>
 </project>

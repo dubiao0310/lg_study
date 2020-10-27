@@ -7,7 +7,7 @@
 from python_study.class_study.tl_class import TongLao
 
 
-class XuZgu(TongLao):
+class XuZhu(TongLao):
 
     def read(self):
         """
@@ -17,4 +17,4 @@ class XuZgu(TongLao):
 
 
 if __name__ == '__main__':
-    xz = XuZgu(120, 9)
+    xz = XuZhu(120, 9)
