@@ -1,0 +1,65 @@
+{
+  "uid" : "dbb2e95f6723d2ff",
+  "name" : "test_skip",
+  "fullName" : "pytest_syudy.test_allure.test_skip",
+  "historyId" : "e1bab2f3998bc474165c8529a517e7b6",
+  "time" : {
+    "start" : 1603959282373,
+    "stop" : 1603959282374,
+    "duration" : 1
+  },
+  "description" : "this test is skipped",
+  "descriptionHtml" : "<p>this test is skipped</p>\n",
+  "status" : "skipped",
+  "statusDetails" : {
+    "message" : "Skipped: for a reason!",
+    "trace" : "",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ubuntu-Latitude-5490"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "1973-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "pytest_syudy.test_allure"
+  }, {
+    "name" : "testClass",
+    "value" : "pytest_syudy.test_allure"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_skip"
+  }, {
+    "name" : "package",
+    "value" : "pytest_syudy.test_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dbb2e95f6723d2ff.json",
+  "statusDetailsSafe" : {
+    "message" : "Skipped: for a reason!",
+    "trace" : "",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

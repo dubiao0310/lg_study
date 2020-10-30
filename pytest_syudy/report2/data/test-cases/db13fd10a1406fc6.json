@@ -1,0 +1,69 @@
+{
+  "uid" : "db13fd10a1406fc6",
+  "name" : "test_broken",
+  "fullName" : "pytest_syudy.test_allure.test_broken",
+  "historyId" : "8b94d965232c1198e1372e9dff749800",
+  "time" : {
+    "start" : 1603959282374,
+    "stop" : 1603959282376,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "Exception: oops",
+    "trace" : "def test_broken():\n>       raise Exception('oops')\nE       Exception: oops\n\ntest_allure.py:26: Exception",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ubuntu-Latitude-5490"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "1973-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "pytest_syudy.test_allure"
+  }, {
+    "name" : "testClass",
+    "value" : "pytest_syudy.test_allure"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_broken"
+  }, {
+    "name" : "package",
+    "value" : "pytest_syudy.test_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "db13fd10a1406fc6.json",
+  "statusDetailsSafe" : {
+    "message" : "Exception: oops",
+    "trace" : "def test_broken():\n>       raise Exception('oops')\nE       Exception: oops\n\ntest_allure.py:26: Exception",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

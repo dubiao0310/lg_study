@@ -1,3 +1,5 @@
+import math
+
 
 class Calc:
 
@@ -11,3 +13,4 @@ class Calc:
 if __name__ == '__main__':
     calc = Calc()
     print(calc.div(1, 0))
+    math

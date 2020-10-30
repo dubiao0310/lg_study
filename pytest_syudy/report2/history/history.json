@@ -1,0 +1,81 @@
+{
+  "23a04b41ad5524a247f932dcecdb10e3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e0c5e75bc115bddc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1603959282355,
+        "stop" : 1603959282373,
+        "duration" : 18
+      }
+    } ]
+  },
+  "5f778cf295c6deae41c92a6c1f33d9a5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd06768d80f62a51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603959282351,
+        "stop" : 1603959282355,
+        "duration" : 4
+      }
+    } ]
+  },
+  "e1bab2f3998bc474165c8529a517e7b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dbb2e95f6723d2ff",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: for a reason!",
+      "time" : {
+        "start" : 1603959282373,
+        "stop" : 1603959282374,
+        "duration" : 1
+      }
+    } ]
+  },
+  "8b94d965232c1198e1372e9dff749800" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db13fd10a1406fc6",
+      "status" : "failed",
+      "statusDetails" : "Exception: oops",
+      "time" : {
+        "start" : 1603959282374,
+        "stop" : 1603959282376,
+        "duration" : 2
+      }
+    } ]
+  }
+}

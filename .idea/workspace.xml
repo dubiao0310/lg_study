@@ -20,12 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dabbe98-c33a-448f-a0ee-8d80895c228c" name="Default Changelist" comment="&quot;linux&quot;">
-      <change afterPath="$PROJECT_DIR$/test_pytest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest/core/calc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest/tests/test_calc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_syudy/data.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_syudy/test_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_syudy/test_allure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_syudy/test_allure_story.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_syudy/test_baidudemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_syudy/test_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_study/class_study/xuzhu_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_study/class_study/xuzhu_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_pytest/core/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/core/calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_pytest/tests/test_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/tests/test_calc.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,109 +56,38 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HogwartsLG4" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.calc">
-    <configuration name="calc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="pytest for test_calc.TestCalc" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="lg_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_pytest/core" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_pytest/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_pytest/core/calc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lg_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_study/game" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_study/game/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tl_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lg_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_study/class_study" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_study/class_study/tl_class.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="xuzhu_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lg_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_study/class_study" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_study/class_study/xuzhu_class.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_calc.TestCalc&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.calc" />
-        <item itemvalue="Python.xuzhu_class" />
-        <item itemvalue="Python.tl_class" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python tests.pytest for test_calc.TestCalc" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +105,8 @@
       <workItem from="1603503506281" duration="1863000" />
       <workItem from="1603525738054" duration="1528000" />
       <workItem from="1603680610687" duration="4954000" />
-      <workItem from="1603803337367" duration="431000" />
+      <workItem from="1603803337367" duration="10291000" />
+      <workItem from="1604045850867" duration="14479000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;test&quot;">
       <created>1603264091936</created>
@@ -249,42 +182,66 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;linux&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2377" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603803421547">
+    <state x="2377" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604065681326">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2377" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603803421547" />
+    <state x="2377" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604065681326" />
     <state x="2602" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603270443085">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2602" y="341" key="#com.intellij.fileTypes.FileTypeChooser/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603270443085" />
+    <state x="2943" y="472" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604058478656">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2943" y="472" key="#com.intellij.ide.util.TreeClassChooserDialog/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604058478656" />
+    <state x="2579" y="118" key="#pytest_for_test_1.test_answer" timestamp="1603954129362">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2579" y="118" key="#pytest_for_test_1.test_answer/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603954129362" />
+    <state x="2579" y="118" key="#pytest_for_test_allure_story.TestLogin" timestamp="1604058567502">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2873" y="240" key="#pytest_for_test_allure_story.TestLogin.test_login_success" timestamp="1604058526153">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2873" y="240" key="#pytest_for_test_allure_story.TestLogin.test_login_success/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604058526153" />
+    <state x="2579" y="118" key="#pytest_for_test_allure_story.TestLogin/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604058567502" />
+    <state x="2579" y="118" key="#pytest_for_test_allure_story.test_testcase_link" timestamp="1604058683322">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2579" y="118" key="#pytest_for_test_allure_story.test_testcase_link/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604058683322" />
+    <state x="2579" y="118" key="#pytest_in_test_allure_story.py" timestamp="1604058723216">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2579" y="118" key="#pytest_in_test_allure_story.py/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604058723216" />
     <state x="2456" y="87" width="912" height="902" key="CommitChangelistDialog2" timestamp="1603762931342">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2456" y="87" width="912" height="902" key="CommitChangelistDialog2/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603762931342" />
-    <state x="2700" y="297" key="FileChooserDialogImpl" timestamp="1603503906221">
+    <state x="2700" y="297" key="FileChooserDialogImpl" timestamp="1604063640624">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2700" y="297" key="FileChooserDialogImpl/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603503906221" />
-    <state width="1809" height="296" key="GridCell.Tab.0.bottom" timestamp="1603785475384">
+    <state x="2700" y="297" key="FileChooserDialogImpl/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604063640624" />
+    <state width="1809" height="387" key="GridCell.Tab.0.bottom" timestamp="1604065818750">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="296" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603785475384" />
-    <state width="1809" height="296" key="GridCell.Tab.0.center" timestamp="1603785475384">
+    <state width="1809" height="387" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604065818750" />
+    <state width="1809" height="387" key="GridCell.Tab.0.center" timestamp="1604065818749">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="296" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603785475384" />
-    <state width="1809" height="296" key="GridCell.Tab.0.left" timestamp="1603785475384">
+    <state width="1809" height="387" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604065818749" />
+    <state width="1809" height="387" key="GridCell.Tab.0.left" timestamp="1604065818749">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="296" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603785475384" />
-    <state width="1809" height="296" key="GridCell.Tab.0.right" timestamp="1603785475384">
+    <state width="1809" height="387" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604065818749" />
+    <state width="1809" height="387" key="GridCell.Tab.0.right" timestamp="1604065818750">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="296" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603785475384" />
-    <state x="2407" y="191" key="SettingsEditor" timestamp="1603803409194">
+    <state width="1809" height="387" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604065818750" />
+    <state x="2407" y="191" key="SettingsEditor" timestamp="1604048247867">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2407" y="191" key="SettingsEditor/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603803409194" />
+    <state x="2407" y="191" key="SettingsEditor/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604048247867" />
     <state x="2512" y="275" key="Vcs.Push.Dialog.v2" timestamp="1603274559953">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -307,9 +264,20 @@
     <state x="2531" y="401" width="672" height="678" key="search.everywhere.popup/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603270980286" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/lg_study$test.coverage" NAME="test Coverage Results" MODIFIED="1603337119665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_study/game" />
     <SUITE FILE_PATH="coverage/lg_study$xuzhu_class.coverage" NAME="xuzhu_class Coverage Results" MODIFIED="1603716628796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_study/class_study" />
+    <SUITE FILE_PATH="coverage/lg_study$test_1.coverage" NAME="test_1 Coverage Results" MODIFIED="1603955850455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_syudy" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_in_test_baidudemo_py.coverage" NAME="pytest in test_baidudemo.py Coverage Results" MODIFIED="1604061299280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_syudy" />
     <SUITE FILE_PATH="coverage/lg_study$calc.coverage" NAME="calc Coverage Results" MODIFIED="1603803981465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_pytest/core" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_allure_story_TestLogin.coverage" NAME="pytest for test_allure_story.TestLogin Coverage Results" MODIFIED="1604058611542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_syudy" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_1_test_answer.coverage" NAME="pytest for test_1.test_answer Coverage Results" MODIFIED="1603955408304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_syudy" />
+    <SUITE FILE_PATH="coverage/lg_study$test.coverage" NAME="test Coverage Results" MODIFIED="1603337119665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_study/game" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_calc_TestCalc.coverage" NAME="pytest for test_calc.TestCalc Coverage Results" MODIFIED="1604065802057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_pytest/tests" />
     <SUITE FILE_PATH="coverage/lg_study$second_task.coverage" NAME="second_task Coverage Results" MODIFIED="1603716302698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_study/class_study" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_allure_story_test_with_link.coverage" NAME="pytest for test_allure_story.test_with_link Coverage Results" MODIFIED="1604058729057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_syudy" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_data_TestData.coverage" NAME="pytest for test_data.TestData Coverage Results" MODIFIED="1603956763251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_syudy" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_baidudemo_test_steps_demo.coverage" NAME="pytest for test_baidudemo.test_steps_demo Coverage Results" MODIFIED="1604061785481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_syudy" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_in_test_1_py.coverage" NAME="pytest in test_1.py Coverage Results" MODIFIED="1603955937875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_syudy" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_in_tests.coverage" NAME="pytest in tests Coverage Results" MODIFIED="1603806531302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_pytest/tests" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_calc_TestCalc_test_mul.coverage" NAME="pytest for test_calc.TestCalc.test_mul Coverage Results" MODIFIED="1604065647093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_pytest/tests" />
   </component>
 </project>

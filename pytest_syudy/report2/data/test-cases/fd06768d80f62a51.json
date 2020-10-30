@@ -1,0 +1,61 @@
+{
+  "uid" : "fd06768d80f62a51",
+  "name" : "test_success",
+  "fullName" : "pytest_syudy.test_allure.test_success",
+  "historyId" : "5f778cf295c6deae41c92a6c1f33d9a5",
+  "time" : {
+    "start" : 1603959282351,
+    "stop" : 1603959282355,
+    "duration" : 4
+  },
+  "description" : "this test succeeds",
+  "descriptionHtml" : "<p>this test succeeds</p>\n",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ubuntu-Latitude-5490"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "1973-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "pytest_syudy.test_allure"
+  }, {
+    "name" : "testClass",
+    "value" : "pytest_syudy.test_allure"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_success"
+  }, {
+    "name" : "package",
+    "value" : "pytest_syudy.test_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd06768d80f62a51.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}
