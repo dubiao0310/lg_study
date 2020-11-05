@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dabbe98-c33a-448f-a0ee-8d80895c228c" name="Default Changelist" comment="&quot;linux&quot;">
-      <change afterPath="$PROJECT_DIR$/pytest_syudy/allure_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_study/test_add_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_study/test_click.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_study/test_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_study/test_touchaction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_study/test_weixin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2dabbe98-c33a-448f-a0ee-8d80895c228c" name="Default Changelist" comment="&quot;linux&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +116,7 @@
       <workItem from="1603803337367" duration="10291000" />
       <workItem from="1604045850867" duration="19720000" />
       <workItem from="1604374197673" duration="2447000" />
-      <workItem from="1604389346021" duration="26792000" />
+      <workItem from="1604389346021" duration="27240000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;test&quot;">
       <created>1603264091936</created>
@@ -248,22 +240,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2700" y="297" key="FileChooserDialogImpl/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604481036285" />
-    <state width="1809" height="462" key="GridCell.Tab.0.bottom" timestamp="1604565473206">
+    <state width="1809" height="462" key="GridCell.Tab.0.bottom" timestamp="1604566680561">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="462" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604565473206" />
-    <state width="1809" height="462" key="GridCell.Tab.0.center" timestamp="1604565473206">
+    <state width="1809" height="462" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604566680561" />
+    <state width="1809" height="462" key="GridCell.Tab.0.center" timestamp="1604566680561">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="462" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604565473206" />
-    <state width="1809" height="462" key="GridCell.Tab.0.left" timestamp="1604565473206">
+    <state width="1809" height="462" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604566680561" />
+    <state width="1809" height="462" key="GridCell.Tab.0.left" timestamp="1604566680560">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="462" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604565473206" />
-    <state width="1809" height="462" key="GridCell.Tab.0.right" timestamp="1604565473206">
+    <state width="1809" height="462" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604566680560" />
+    <state width="1809" height="462" key="GridCell.Tab.0.right" timestamp="1604566680561">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="462" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604565473206" />
+    <state width="1809" height="462" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604566680561" />
     <state x="2407" y="191" key="SettingsEditor" timestamp="1604048247867">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

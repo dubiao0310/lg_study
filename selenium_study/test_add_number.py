@@ -6,11 +6,12 @@
 import shelve
 from time import sleep
 
+import allure
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
-
+@allure.feature("测试企业微信")
 class TestAddNumber:
     def setup(self):
         option = Options()
@@ -23,6 +24,8 @@ class TestAddNumber:
     def teardown(self):
         self.driver.quit()
 
+    # 使用 cookie 登录企业微信，完成添加联系人，加上断言验证
+    @allure.story("使用 cookie 登录企业微信，完成添加联系人，加上断言验证")
     def test_add_number(self):
         self.driver.get("https://work.weixin.qq.com/wework_admin/frame")
         # cookies = self.driver.get_cookies()
