@@ -19,7 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dabbe98-c33a-448f-a0ee-8d80895c228c" name="Default Changelist" comment="&quot;linux&quot;" />
+    <list default="true" id="2dabbe98-c33a-448f-a0ee-8d80895c228c" name="Default Changelist" comment="&quot;linux&quot;">
+      <change afterPath="$PROJECT_DIR$/page_object/page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_object/page/base_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_object/page/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_object/page/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_object/page/register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_object/test_case/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_object/test_case/test_register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_study/test_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../my_project/algorithm_test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -57,13 +67,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_add_number.TestAddNumber.test_add_number">
-    <configuration name="pytest for test_add_number.TestAddNumber.test_add_number" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_register.TestRegister">
+    <configuration name="pytest for test_register.TestRegister" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="lg_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selenium_study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_object/test_case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -71,11 +81,28 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_number.TestAddNumber.test_add_number&quot;" />
+      <option name="_new_target" value="&quot;test_register.TestRegister&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_add_number.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_register.TestRegister.test_register" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="lg_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_object/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_register.TestRegister.test_register&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_window.TestWindows.test_alert" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="lg_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,14 +115,51 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/selenium_study/test_add_number.py&quot;" />
+      <option name="_new_target" value="&quot;test_window.TestWindows.test_alert&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_window.TestWindows.test_js" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="lg_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selenium_study" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_window.TestWindows.test_js&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_window.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="lg_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selenium_study" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/selenium_study/test_window.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_add_number.TestAddNumber.test_add_number" />
-        <item itemvalue="Python tests.pytest in test_add_number.py" />
+        <item itemvalue="Python tests.pytest for test_register.TestRegister" />
+        <item itemvalue="Python tests.pytest for test_register.TestRegister.test_register" />
+        <item itemvalue="Python tests.pytest for test_window.TestWindows.test_alert" />
+        <item itemvalue="Python tests.pytest in test_window.py" />
+        <item itemvalue="Python tests.pytest for test_window.TestWindows.test_js" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +180,9 @@
       <workItem from="1603803337367" duration="10291000" />
       <workItem from="1604045850867" duration="19720000" />
       <workItem from="1604374197673" duration="2447000" />
-      <workItem from="1604389346021" duration="27240000" />
+      <workItem from="1604389346021" duration="41459000" />
+      <workItem from="1604930153953" duration="909000" />
+      <workItem from="1605492615703" duration="1817000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;test&quot;">
       <created>1603264091936</created>
@@ -192,14 +258,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;linux&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2377" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604562518720">
+    <state x="2377" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604580832932">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2377" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604562518720" />
-    <state x="2602" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603270443085">
+    <state x="2377" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604580832932" />
+    <state x="2602" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604930174254">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2602" y="341" key="#com.intellij.fileTypes.FileTypeChooser/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603270443085" />
+    <state x="2602" y="341" key="#com.intellij.fileTypes.FileTypeChooser/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604930174254" />
     <state x="2943" y="472" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604058478656">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -236,26 +302,26 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2456" y="87" width="912" height="902" key="CommitChangelistDialog2/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603762931342" />
-    <state x="2700" y="297" key="FileChooserDialogImpl" timestamp="1604481036285">
+    <state x="2700" y="297" key="FileChooserDialogImpl" timestamp="1605492652692">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2700" y="297" key="FileChooserDialogImpl/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604481036285" />
-    <state width="1809" height="462" key="GridCell.Tab.0.bottom" timestamp="1604566680561">
+    <state x="2700" y="297" key="FileChooserDialogImpl/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605492652692" />
+    <state width="1809" height="414" key="GridCell.Tab.0.bottom" timestamp="1604713920883">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="462" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604566680561" />
-    <state width="1809" height="462" key="GridCell.Tab.0.center" timestamp="1604566680561">
+    <state width="1809" height="414" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604713920883" />
+    <state width="1809" height="414" key="GridCell.Tab.0.center" timestamp="1604713920882">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="462" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604566680561" />
-    <state width="1809" height="462" key="GridCell.Tab.0.left" timestamp="1604566680560">
+    <state width="1809" height="414" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604713920882" />
+    <state width="1809" height="414" key="GridCell.Tab.0.left" timestamp="1604713920882">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="462" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604566680560" />
-    <state width="1809" height="462" key="GridCell.Tab.0.right" timestamp="1604566680561">
+    <state width="1809" height="414" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604713920882" />
+    <state width="1809" height="414" key="GridCell.Tab.0.right" timestamp="1604713920883">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="462" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604566680561" />
+    <state width="1809" height="414" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604713920883" />
     <state x="2407" y="191" key="SettingsEditor" timestamp="1604048247867">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -287,11 +353,13 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_click_TestClick_test_keys.coverage" NAME="pytest for test_click.TestClick.test_keys Coverage Results" MODIFIED="1604484212031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_study" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_in_test_window_py.coverage" NAME="pytest in test_window.py Coverage Results" MODIFIED="1604581013401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_study" />
     <SUITE FILE_PATH="coverage/lg_study$test_1.coverage" NAME="test_1 Coverage Results" MODIFIED="1603955850455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_syudy" />
     <SUITE FILE_PATH="coverage/lg_study$test_xpath.coverage" NAME="test_xpath Coverage Results" MODIFIED="1604389496886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_study" />
     <SUITE FILE_PATH="coverage/lg_study$calc.coverage" NAME="calc Coverage Results" MODIFIED="1603803981465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_pytest/core" />
     <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_allure_story_TestLogin.coverage" NAME="pytest for test_allure_story.TestLogin Coverage Results" MODIFIED="1604058611542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_syudy" />
     <SUITE FILE_PATH="coverage/lg_study$test.coverage" NAME="test Coverage Results" MODIFIED="1603337119665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_study/game" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_window_TestWindows_test_time.coverage" NAME="pytest for test_window.TestWindows.test_time Coverage Results" MODIFIED="1604580942890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_study" />
     <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_calc_TestCalc.coverage" NAME="pytest for test_calc.TestCalc Coverage Results" MODIFIED="1604065802057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_pytest/tests" />
     <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_weixin_TestWx_test_cookie.coverage" NAME="pytest for test_weixin.TestWx.test_cookie Coverage Results" MODIFIED="1604499446543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_study" />
     <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_form_TestForm.coverage" NAME="pytest for test_form.TestForm Coverage Results" MODIFIED="1604494338950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_study" />
@@ -300,13 +368,19 @@
     <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_data_TestData.coverage" NAME="pytest for test_data.TestData Coverage Results" MODIFIED="1603956763251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_syudy" />
     <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_touchaction_TestTouchaction.coverage" NAME="pytest for test_touchaction.TestTouchaction Coverage Results" MODIFIED="1604493474624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_study" />
     <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_calc_TestCalc_test_mul.coverage" NAME="pytest for test_calc.TestCalc.test_mul Coverage Results" MODIFIED="1604065647093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_pytest/tests" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_window_TestWindows.coverage" NAME="pytest for test_window.TestWindows Coverage Results" MODIFIED="1604579882188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_study" />
     <SUITE FILE_PATH="coverage/lg_study$pytest_in_test_weixin_py.coverage" NAME="pytest in test_weixin.py Coverage Results" MODIFIED="1604498436450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_study" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_register_TestRegister.coverage" NAME="pytest for test_register.TestRegister Coverage Results" MODIFIED="1604648110424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page_object/test_case" />
     <SUITE FILE_PATH="coverage/lg_study$xuzhu_class.coverage" NAME="xuzhu_class Coverage Results" MODIFIED="1603716628796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_study/class_study" />
     <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_click_TestClick.coverage" NAME="pytest for test_click.TestClick Coverage Results" MODIFIED="1604396626326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_study" />
     <SUITE FILE_PATH="coverage/lg_study$pytest_in_test_baidudemo_py.coverage" NAME="pytest in test_baidudemo.py Coverage Results" MODIFIED="1604061299280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_syudy" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_window_TestWindows_test_alert.coverage" NAME="pytest for test_window.TestWindows.test_alert Coverage Results" MODIFIED="1604582324383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_study" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_register_TestRegister_test_register.coverage" NAME="pytest for test_register.TestRegister.test_register Coverage Results" MODIFIED="1604647635137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page_object/test_case" />
     <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_1_test_answer.coverage" NAME="pytest for test_1.test_answer Coverage Results" MODIFIED="1603955408304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_syudy" />
     <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_add_number_TestAddNumber_test_add_number.coverage" NAME="pytest for test_add_number.TestAddNumber.test_add_number Coverage Results" MODIFIED="1604566680537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_study" />
     <SUITE FILE_PATH="coverage/lg_study$pytest_in_test_add_number_py.coverage" NAME="pytest in test_add_number.py Coverage Results" MODIFIED="1604562573966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_study" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_window_TestWindows_test_frame.coverage" NAME="pytest for test_window.TestWindows.test_frame Coverage Results" MODIFIED="1604570731596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_study" />
+    <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_window_TestWindows_test_js.coverage" NAME="pytest for test_window.TestWindows.test_js Coverage Results" MODIFIED="1604581006499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_study" />
     <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_add_number_TestAddNumber.coverage" NAME="pytest for test_add_number.TestAddNumber Coverage Results" MODIFIED="1604562307638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_study" />
     <SUITE FILE_PATH="coverage/lg_study$second_task.coverage" NAME="second_task Coverage Results" MODIFIED="1603716302698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_study/class_study" />
     <SUITE FILE_PATH="coverage/lg_study$pytest_for_test_allure_story_test_with_link.coverage" NAME="pytest for test_allure_story.test_with_link Coverage Results" MODIFIED="1604058729057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_syudy" />
