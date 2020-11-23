@@ -11,7 +11,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 
 class TestDelContact:
-
     def setup(self):
         caps = {
             "platformName": "Android",
@@ -58,7 +57,6 @@ class TestDelContact:
         result = self.driver.find_element(MobileBy.XPATH, "//*[@class='android.widget.Toast']").text
         assert result == "添加成功"
 
-
     def test_del_contact(self):
         name = "aa"
         self.driver.find_element(MobileBy.XPATH, "//*[@text='通讯录']").click()
@@ -67,7 +65,8 @@ class TestDelContact:
         # self.driver.find_element(MobileBy.XPATH,
         #                          "//android.widget.RelativeLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.TextView").click()
         self.driver.find_element(MobileBy.ID, "g75").send_keys(name)
-        WebDriverWait(self.driver, 5).until(expected_conditions.visibility_of_element_located, (MobileBy.XPATH, "//*[@text='联系人']"))
+        WebDriverWait(self.driver, 5).until(expected_conditions.visibility_of_element_located,
+                                            (MobileBy.XPATH, "//*[@text='联系人']"))
 
         elements = self.driver.find_elements(MobileBy.ID, "ddw")
         if len(elements) >= 1:
@@ -84,9 +83,8 @@ class TestDelContact:
         self.driver.find_element(MobileBy.XPATH, "//*[@text='删除成员']").click()
         self.driver.find_element(MobileBy.XPATH, "//*[@text='确定']").click()
 
-        WebDriverWait(self.driver, 5).until(expected_conditions.visibility_of_element_located, (MobileBy.XPATH, "//*[@text='联系人']"))
+        WebDriverWait(self.driver, 5).until(expected_conditions.visibility_of_element_located,
+                                            (MobileBy.XPATH, "//*[@text='联系人']"))
         elements2 = self.driver.find_elements(MobileBy.ID, "ddw")
 
-        assert len(elements) == len(elements2) -1
-
-
+        assert len(elements) == len(elements2) - 1

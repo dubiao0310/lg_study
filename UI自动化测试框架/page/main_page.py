@@ -2,7 +2,7 @@
 # @Time    : 2020/11/17 16:04
 # @Author  : biao.du
 # @Email   : MrDu_biao@163.com
-# @File    : main_page.py
+# @File    : app.py
 from selenium.webdriver.common.by import By
 
 from UI自动化测试框架.page.base_page import BasePage

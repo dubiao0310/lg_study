@@ -9,9 +9,12 @@ from UI自动化测试框架.page.app import App
 from UI自动化测试框架.page.main_page import Main
 import pytest
 
-class TestSearch:
-    def setup(self):
-        self.app = App()
+from UI自动化测试框架.test_case.test_base import TestBase
+
+
+class TestSearch(TestBase):
+    # def setup(self):
+    #     self.app = App()
 
     # @pytest.mark.skip
     # @pytest.mark.parametrize("value1, value2", yaml.safe_load(open("./test_main.yaml")))
