@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 // import Home from '../views/Home.vue'
 import Singin from '../components/Signin.vue'
+import testcase from '../components/testcase.vue'
+import register from '../components/register.vue'
 
 Vue.use(VueRouter)
 
@@ -23,7 +25,18 @@ const routes = [
     path: '/',
     name: 'singin',
     component: Singin
+  },
+  {
+    path: '/testcase',
+    name: 'testcase',
+    component: testcase
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: register
   }
+
 ]
 
 const router = new VueRouter({
